@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Login Page</title>
+ <style>
+    /* General Reset */
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Background Image */
+.background {
+  background-image: url('pexels-janetrangdoan-1128678.jpg'); /* Add the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+/* Semi-Transparent Login Box */
+.login-box {background-color: transparent;
+    /* margin-left: 9rem; */
+ /* Slight transparency */
+  border-radius: 22px;
+  padding-top: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  /* width: 100%; */
+  height: 100%;
+  width: 540px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+}
+
+.login-box h1 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.login-box label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.login-box button {
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #45a049;
+}
+/* Remember Me Checkbox */
+/* Remember Me Checkbox */
+.remember-me {
+  display: flex;
+  align-items: center; /* Align vertically */
+  justify-content: flex-start; /* Align to the left */
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.remember-me input[type="checkbox"] {
+  margin-right: 8px; /* Space between checkbox and label */
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.remember-me label {
+  cursor: pointer;
+}
+
+
+/* Sign Up Option */
+.signup-text {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.signup-text a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 1em;
+  text-transform: uppercase;
+  font-weight: small;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #16a083;
+}
+
+.btn-primary:hover {
+  background: #117964; /* Button color on hover */
+  transition: background 0.3s ease-in-out;
+}
+
+/* ............/navbar/............ */
+
+/* desktop mode............/// */
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+  display: none;
+}
+
+.navbar {
+  box-shadow: 0px 5px 10px 0px #aaa;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  opacity: 0.85;
+  height: 50px;
+  z-index: 12;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+
+.menu-items {
+  order: 2;
+  display: flex;
+}
+
+.menu-items li {
+  list-style: none;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu-items a:hover {
+  color: #117964; /* Color change on hover */
+  transition: color 0.3s ease-in-out;
+}
+
+.logo {
+  order: 1;
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+
+
+ </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="index.htm">About</a></li>
+                <li><a href="index.htm">Category</a></li>
+                <li><a href="index.htm">Menu</a></li>
+                <li><a href="index.htm">Testimonial</a></li>
+                <li><a href="index.htm">Contact</a></li>
+            </ul>
+            <h1 class="logo">Delicious</h1>
+        </div>
+    </nav>
+  <div class="background">
+    <div class="login-box">
+      <h1>Login</h1>
+      <form>
+        <!-- Username -->
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username" required>
+
+        <!-- Password -->
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+
+        <!-- Remember Me Checkbox -->
+        <div class="remember-me">
+          <input type="checkbox" id="remember">
+          <label for="remember">Remember Me</label>
+        </div>
+
+        <!-- Login Button -->
+        <button type="submit">Login</button>
+
+        <!-- Sign Up Option -->
+        <p class="signup-text">
+          Don't have an account? <a href="signup.htm">Sign Up</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
