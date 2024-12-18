@@ -12,19 +12,22 @@ Welcome to **Healthy Bites**! This project is a fictional restaurant website des
 
 2. **Menu Page**  
    - A detailed display of the restaurant's offerings.
+     
+3. **About Us Page**
 
-3. **Online Reservation System**  
+4. **Category Page**
+   -Types of food.
+
+5. **Online Reservation System**  
    - A form to enter customer details and make reservations.
 
-4. **Customer Review Section**  
+6. **Customer Review Section(Testimonials)**  
    - A space for customers to leave feedback.
 
-5. **Contact Us Page**  
+7. **Contact Us Page**  
    - Includes contact information and a form for inquiries.
 
-6. **Process Flow Diagram**  
-   - Visual representation of the website's structure and workflow.
-
+8. **Login/signup page**
 ---
 
 ## Project Details
